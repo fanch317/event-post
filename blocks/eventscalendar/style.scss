@@ -1,0 +1,140 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-eventpost-calendar {
+    border: 1px dotted #f00;
+}
+
+.eventpost-calendar-block-controls label {
+    display: block;
+}
+
+.wp-block-eventpost-calendar {
+    width: 100%;
+    min-height: 100px;
+    border: #CCC 1Px solid;
+    padding: 0.3em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    text-align: center;
+
+    .eventpost_cal_loader {
+        margin-top: 20px;
+    }
+
+    .eventpost_cal_list {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background: #FFF;
+        padding: 0.5em;
+        border: #CCC 1px solid;
+        top: 0;
+        overflow: auto;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+
+        td,
+        th {
+            text-align: center;
+        }
+
+        caption {
+            text-align: center;
+        }
+
+        th {
+            font-weight: 900;
+            width: 14.2857%;
+        }
+
+        tbody td {
+            vertical-align: top;
+            width: 14.2857%;
+
+            &.event_post_day_now {
+                border: #8C4 2px solid;
+            }
+        }
+    }
+
+    button {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0.1em;
+        background: transparent;
+        font-weight: 900;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }
+
+    tbody button {
+        padding: 0.3em 0;
+        background: rgba(0,0,0,0.4);
+        border: transparent 1px solid;
+        width: 100%;
+
+        &:focus,
+        &:hover {
+            border: #FFF 1px solid;
+            border-radius: 0;
+        }
+    }
+
+    button {
+        &.eventpost_cal_close {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            display: bock;
+            padding: 0.3em 0.6em;
+            background: #555;
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        &.eventpost_cal_close:focus,
+        &.eventpost_cal_close:hover {
+            background: #000;
+            color: #FFF;
+        }
+    }
+
+    .eventpost_cal_list ul,
+    .eventpost_calendar tbody ul {
+        list-style: none;
+        margin: 0.5em 0;
+        padding: 0;
+    }
+
+    .eventpost_cal_list li,
+    tbody ul li {
+        display: block;
+    }
+
+    tbody ul li h4 {
+        font-weight: 500;
+        font-size: 0.75em;
+        display: block;
+        margin: 0.1em;
+        padding: 0.1em 0.7em;
+        background: #0001;
+        border: #0002 1px solid;
+        border-radius: 2px;
+    }
+
+    tbody ul li .event_data {
+        display: none;
+    }
+}

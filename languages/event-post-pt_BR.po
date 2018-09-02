@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: event-post\n"
+"POT-Creation-Date: 2015-11-10 13:47-0200\n"
+"PO-Revision-Date: 2015-11-10 14:32-0200\n"
+"Language-Team: Bastien Ho <b@stienho.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../js/jquery.datetimepicker.js\n"
+"X-Poedit-SearchPathExcluded-1: ../js/OpenLayers.js\n"
+
+#: ../eventpost.php:93
+msgid "Jan"
+msgstr "Jan"
+
+#: ../eventpost.php:93
+msgid "Feb"
+msgstr "Fev"
+
+#: ../eventpost.php:93
+msgid "Mar"
+msgstr "Mar"
+
+#: ../eventpost.php:93
+msgid "Apr"
+msgstr "Abr"
+
+#: ../eventpost.php:93
+msgid "May"
+msgstr "Mai"
+
+#: ../eventpost.php:93
+msgid "Jun"
+msgstr "Jun"
+
+#: ../eventpost.php:93
+msgid "Jul"
+msgstr "Jul"
+
+#: ../eventpost.php:93
+msgid "Aug"
+msgstr "Ago"
+
+#: ../eventpost.php:93
+msgid "Sept"
+msgstr "Set"
+
+#: ../eventpost.php:93
+msgid "Oct"
+msgstr "Out"
+
+#: ../eventpost.php:93
+msgid "Nov"
+msgstr "Nov"
+
+#: ../eventpost.php:93
+msgid "Dec"
+msgstr "Dez"
+
+#: ../eventpost.php:94 ../widget.cal.php:96
+msgid "Sunday"
+msgstr "Domingo"
+
+#: ../eventpost.php:94 ../widget.cal.php:97
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: ../eventpost.php:94
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: ../eventpost.php:94
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: ../eventpost.php:94
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: ../eventpost.php:94
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: ../eventpost.php:94
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../eventpost.php:116 ../eventpost.php:420
+msgid "yy-mm-dd"
+msgstr "aa-mm-dd"
+
+#: ../eventpost.php:138
+msgid "Drag Rotate"
+msgstr "Girar Arrastando"
+
+#: ../eventpost.php:139
+msgid "Double Click Zoom"
+msgstr "Zoom clique duplo"
+
+#: ../eventpost.php:140
+msgid "Drag Pan"
+msgstr "Arraste Mover "
+
+#: ../eventpost.php:141
+msgid "Pinch Rotate"
+msgstr "Girar Pinça"
+
+#: ../eventpost.php:142
+msgid "Pinch Zoom"
+msgstr "Zoom Pinça"
+
+#: ../eventpost.php:143
+msgid "Keyboard Pan"
+msgstr "Mover com Teclado"
+
+#: ../eventpost.php:144
+msgid "Keyboard Zoom"
+msgstr "Zoom com Teclado"
+
+#: ../eventpost.php:145
+msgid "Mouse Wheel Zoom"
+msgstr "Zoom com Roda do Mouse"
+
+#: ../eventpost.php:146
+msgid "Drag Zoom"
+msgstr "Mover com Roda do Mouse"
+
+#: ../eventpost.php:198
+msgid "Add calendar and/or geolocation metadata on posts"
+msgstr "Adicionar metadados do calendário e/ou geolocalização nos posts"
+
+#: ../eventpost.php:199
+msgid "Event Post"
+msgstr "Event Post"
+
+#: ../eventpost.php:419
+msgid "Choose"
+msgstr "Escolha"
+
+#: ../eventpost.php:421
+msgid "More icons"
+msgstr "Mais ícones"
+
+#: ../eventpost.php:422 ../eventpost.php:1429 ../eventpost.php:1444
+msgid "Pick a date"
+msgstr "Escolha uma data"
+
+#: ../eventpost.php:485
+msgid "today"
+msgstr "hoje"
+
+#: ../eventpost.php:487
+msgid "tomorrow"
+msgstr "amanhã"
+
+#: ../eventpost.php:489
+msgid "yesterday"
+msgstr "ontem"
+
+#: ../eventpost.php:519 ../eventpost.php:530
+msgid "from"
+msgstr "de"
+
+#: ../eventpost.php:521 ../eventpost.php:532
+msgid "to"
+msgstr "até"
+
+#: ../eventpost.php:524
+msgid "at"
+msgstr "às"
+
+#: ../eventpost.php:564
+msgid "Download ICS file"
+msgstr "Baixar arquivo ICS"
+
+#: ../eventpost.php:565
+msgid "Add to Google calendar"
+msgstr "Adicionar ao Google Calendar"
+
+#: ../eventpost.php:566
+msgid "Add to Outlook"
+msgstr "Adicionar ao Outlook"
+
+#: ../eventpost.php:602 ../eventpost.php:1500
+msgid "Map"
+msgstr "Mapa"
+
+#: ../eventpost.php:1200
+msgid "Events list"
+msgstr "Lista de Eventos"
+
+#: ../eventpost.php:1205 ../eventpost.php:1506 ../widget.map.php:109
+#: ../widget.php:90
+msgid "Number of posts"
+msgstr "Número de Posts"
+
+#: ../eventpost.php:1208
+msgid "-1 is for: no limit"
+msgstr "-1: sem limite"
+
+#: ../eventpost.php:1211 ../eventpost.php:1332
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../eventpost.php:1216
+msgid "Tags"
+msgstr "Tags"
+
+#: ../eventpost.php:1221 ../eventpost.php:1531
+msgid "Future events:"
+msgstr "Eventos futuros:"
+
+#: ../eventpost.php:1225 ../eventpost.php:1234 ../eventpost.php:1243
+#: ../eventpost.php:1252 ../eventpost.php:1533 ../eventpost.php:1540
+#: ../eventpost.php:1550 ../eventpost.php:1975 ../eventpost.php:2054
+#: ../widget.cal.php:106 ../widget.cal.php:115
+msgid "Yes"
+msgstr "Sim"
+
+#: ../eventpost.php:1226 ../eventpost.php:1235 ../eventpost.php:1244
+#: ../eventpost.php:1253 ../eventpost.php:1534 ../eventpost.php:1539
+#: ../eventpost.php:1549 ../eventpost.php:1977 ../eventpost.php:2057
+#: ../widget.cal.php:105 ../widget.cal.php:114
+msgid "No"
+msgstr "Não"
+
+#: ../eventpost.php:1230 ../eventpost.php:1537
+msgid "Past events:"
+msgstr "Eventos passados:"
+
+#: ../eventpost.php:1239 ../eventpost.php:1547
+msgid "Only geotagged events:"
+msgstr "Apenas eventos com Geotag:"
+
+#: ../eventpost.php:1248
+msgid "Thumbnail:"
+msgstr "Miniatura:"
+
+#: ../eventpost.php:1257 ../widget.cal.php:128 ../widget.map.php:178
+#: ../widget.php:152
+msgid "Thumbnail size:"
+msgstr "Tamanho da miniatura:"
+
+#: ../eventpost.php:1261
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../eventpost.php:1262
+msgid "Medium"
+msgstr "Médio"
+
+#: ../eventpost.php:1263
+msgid "Large"
+msgstr "Grande"
+
+#: ../eventpost.php:1267
+msgid "Order by:"
+msgstr "Ordenar por:"
+
+#: ../eventpost.php:1271 ../widget.cal.php:82
+msgid "Date"
+msgstr "Data"
+
+#: ../eventpost.php:1272 ../widget.cal.php:65 ../widget.map.php:103
+#: ../widget.php:84
+msgid "Title"
+msgstr "Título"
+
+#: ../eventpost.php:1276
+msgid "Order:"
+msgstr "Ordem:"
+
+#: ../eventpost.php:1280
+msgid "Asc."
+msgstr "Asc."
+
+#: ../eventpost.php:1281
+msgid "Desc."
+msgstr "Desc."
+
+#: ../eventpost.php:1295 ../eventpost.php:1582 ../widget.map.php:160
+msgid "Width"
+msgstr "Largura"
+
+#: ../eventpost.php:1300 ../eventpost.php:1587 ../widget.map.php:165
+msgid "Height"
+msgstr "Altura"
+
+#: ../eventpost.php:1305 ../widget.map.php:8
+msgid "Events map"
+msgstr "Mapa de eventos"
+
+#: ../eventpost.php:1309
+#, php-format
+msgid "Disable %s interaction"
+msgstr "Desabilitar interação com %"
+
+#: ../eventpost.php:1321 ../widget.cal.php:7
+msgid "Events calendar"
+msgstr "Calendário de eventos"
+
+#: ../eventpost.php:1326
+msgid "Default date"
+msgstr "Data padrão"
+
+#: ../eventpost.php:1337
+msgid "Monday first"
+msgstr "Segunda-feira primeiro"
+
+#: ../eventpost.php:1342
+msgid "Date selector"
+msgstr "Seletor de datas"
+
+#: ../eventpost.php:1353
+msgid "Event details"
+msgstr "Detalhes do evento"
+
+#: ../eventpost.php:1357
+msgid "Attribute"
+msgstr "Atributo"
+
+#: ../eventpost.php:1361
+msgid "Full details"
+msgstr "Detalhes completos"
+
+#: ../eventpost.php:1362
+msgid "Full date"
+msgstr "Data completa"
+
+#: ../eventpost.php:1363
+msgid "Begin date"
+msgstr "Data de início"
+
+#: ../eventpost.php:1364
+msgid "End date"
+msgstr "Data de término"
+
+#: ../eventpost.php:1365
+msgid "Address text"
+msgstr "Texto do endereço"
+
+#: ../eventpost.php:1366 ../eventpost.php:1827
+msgid "Location"
+msgstr "Local"
+
+#: ../eventpost.php:1380
+msgid "Event date"
+msgstr "Data do evento"
+
+#: ../eventpost.php:1381
+msgid "Event location"
+msgstr "Local do evento"
+
+#: ../eventpost.php:1384
+msgid "Events Shortcode editor"
+msgstr "Editor do Shortcode do Evento"
+
+#: ../eventpost.php:1406
+msgid "Color:"
+msgstr "Cor:"
+
+#: ../eventpost.php:1422
+msgid "Begin:"
+msgstr "Início:"
+
+#: ../eventpost.php:1437
+msgid "End:"
+msgstr "Término:"
+
+#: ../eventpost.php:1463
+msgid "Look for event's GPS coordinates:"
+msgstr "Procurar coordenadas GPS do evento:"
+
+#: ../eventpost.php:1468
+msgid "Event address, as it will be displayed:"
+msgstr "Endereço do evento, como será exibido:"
+
+#: ../eventpost.php:1475
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: ../eventpost.php:1481
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: ../eventpost.php:1497
+msgid "Type :"
+msgstr "Tipo:"
+
+#: ../eventpost.php:1499
+msgid "List"
+msgstr "Lista:"
+
+#: ../eventpost.php:1508 ../eventpost.php:1515 ../widget.cal.php:73
+msgid "All"
+msgstr "Todos"
+
+#: ../eventpost.php:1513 ../widget.cal.php:71 ../widget.map.php:131
+#: ../widget.map.php:146 ../widget.php:112 ../widget.php:133
+msgid "Only in :"
+msgstr "Apenas em :"
+
+#: ../eventpost.php:1557 ../eventpost.php:2102 ../widget.map.php:196
+msgid "Map background"
+msgstr "Fundo do mapa:"
+
+#: ../eventpost.php:1594
+msgid "Insert shortcode"
+msgstr "Inserir shortcode"
+
+#: ../eventpost.php:1728
+msgid "Today"
+msgstr "Hoje"
+
+#: ../eventpost.php:1826
+msgid "Event"
+msgstr "Evento"
+
+#: ../eventpost.php:1865
+msgid "Security error"
+msgstr "Erro de segurança"
+
+#: ../eventpost.php:1900
+msgid "Events  settings"
+msgstr "Configurações do evento"
+
+#: ../eventpost.php:1900 ../widget.php:7
+msgid "Events"
+msgstr "Eventos"
+
+#: ../eventpost.php:1908
+#, php-format
+msgid "%d Events"
+msgstr "%d Eventos"
+
+#: ../eventpost.php:1909
+#, php-format
+msgid "%d Geolocalized events"
+msgstr "%d Eventos geolocalizados"
+
+#: ../eventpost.php:1918
+msgid "Event settings saved !"
+msgstr "Configurações do eventos salvas!"
+
+#: ../eventpost.php:1925
+msgid "Event settings"
+msgstr "Configurações do evento"
+
+#: ../eventpost.php:1930
+msgid "Global settings"
+msgstr "Configurações globais"
+
+#: ../eventpost.php:1936
+msgid "Print link for empty posts"
+msgstr "Exibir link para posts vazios"
+
+#: ../eventpost.php:1942
+msgid "Link all posts"
+msgstr "Linkar todos os posts"
+
+#: ../eventpost.php:1945
+msgid "Do not link posts with empty content"
+msgstr "Não linkar posts com conteúdo vazio"
+
+#: ../eventpost.php:1953
+msgid "Event bar position for single posts"
+msgstr "Posição da barra de eventos para posts únicos"
+
+#: ../eventpost.php:1958
+msgid "Before the content"
+msgstr "Antes do conteúdo"
+
+#: ../eventpost.php:1961
+msgid "After the content"
+msgstr "Após o conteúdo"
+
+#: ../eventpost.php:1969
+msgid "Add icons for events in the loop"
+msgstr "Adicionar ícones para eventos no Loop"
+
+#: ../eventpost.php:1984
+msgid "Position of event details boxes"
+msgstr "Posição das caixas de detalhes do evento"
+
+#: ../eventpost.php:1990
+msgid "Side"
+msgstr "Lado"
+
+#: ../eventpost.php:1992
+msgid "Under the text"
+msgstr "Sob o texto"
+
+#: ../eventpost.php:1999
+msgid "Date settings"
+msgstr "Configurações da data"
+
+#: ../eventpost.php:2005
+msgid "Date format"
+msgstr "Formato da data"
+
+#: ../eventpost.php:2015
+msgid "Time format"
+msgstr "Formato da hora"
+
+#: ../eventpost.php:2025
+msgid "Show export buttons on:"
+msgstr "Mostrar botões de exportar em:"
+
+#: ../eventpost.php:2031
+msgid "List only"
+msgstr "Apenas lista"
+
+#: ../eventpost.php:2034
+msgid "Single only"
+msgstr "Apenas individual"
+
+#: ../eventpost.php:2037
+msgid "Both"
+msgstr "Ambos"
+
+#: ../eventpost.php:2040
+msgid "None"
+msgstr "Nenhum"
+
+#: ../eventpost.php:2048
+msgid "Relative human dates:"
+msgstr "Data humana relativa:"
+
+#: ../eventpost.php:2060
+msgid "Replace absolute dates by \"today\", \"yesterday\", and \"tomorrow\"."
+msgstr "Substituir datas absolutas por \"hoje\", \"ontem\", e \"amanhã\"."
+
+#: ../eventpost.php:2066
+msgid "List settings"
+msgstr "Configurações da lista"
+
+#: ../eventpost.php:2072
+msgid "Container shema"
+msgstr "Esquema do container"
+
+#: ../eventpost.php:2077 ../eventpost.php:2089
+msgid "default:"
+msgstr "padrão:"
+
+#: ../eventpost.php:2084
+msgid "Item shema"
+msgstr "Esquema do item:"
+
+#: ../eventpost.php:2096
+msgid "Map settings"
+msgstr "Configuração do mapa"
+
+#: ../eventpost.php:2117
+msgid "Makers custom directory (leave empty for default settings)"
+msgstr "Diretório personalizado do criador (deixar vazio para configuração padrão)"
+
+#: ../eventpost.php:2121
+msgid "Root path:"
+msgstr "Caminho root:"
+
+#: ../eventpost.php:2125
+msgid "URL:"
+msgstr "URL:"
+
+#: ../eventpost.php:2133
+msgid "Admin UI settings"
+msgstr "Configuração UI do admin"
+
+#: ../eventpost.php:2138
+msgid "Wich post types can be events ?"
+msgstr "Quais posts podem ser eventos?"
+
+#: ../eventpost.php:2151
+msgid "Datepicker style"
+msgstr "Estilo do datepicker"
+
+#: ../eventpost.php:2158
+msgid "Dual"
+msgstr "Duplo"
+
+#: ../eventpost.php:2167
+msgid "Separate"
+msgstr "Separado"
+
+#: ../eventpost.php:2176
+msgid "Browser's style"
+msgstr "Estilo do navegador"
+
+#: ../eventpost.php:2185
+msgid "Performances settings"
+msgstr "Configuração de performance"
+
+#: ../eventpost.php:2190
+msgid "Use cache"
+msgstr "Usar cache"
+
+#: ../eventpost.php:2195
+msgid "Use cache for results"
+msgstr "Usar cache para resultados"
+
+#: ../eventpost.php:2203
+msgid "Apply settings"
+msgstr "Aplicar"
+
+#: ../multisite.php:22
+msgid "Extends Event post to multisite networks"
+msgstr "Estender post Event para múltiplas redes"
+
+#: ../multisite.php:23
+msgid "Event Post multisite support"
+msgstr "Suporte Event Post multisite"
+
+#: ../multisite.php:31
+msgid "Blogs"
+msgstr "Blogs"
+
+#: ../multisite.php:34
+msgid "Blog's id, separated by comma. \"all\" for all blogs"
+msgstr "Id dos Blogs, separados por vírgula. \"all\" para todos os blogs"
+
+#: ../widget.cal.php:7
+msgid "Calendar presentation of events posts"
+msgstr "Apresentação calendário para posts evento"
+
+#: ../widget.cal.php:84
+msgid "Current"
+msgstr "Atual"
+
+#: ../widget.cal.php:85
+msgid "-1 Month"
+msgstr "-1 Mês"
+
+#: ../widget.cal.php:86
+msgid "-2 Months"
+msgstr "-2 Meses"
+
+#: ../widget.cal.php:87
+msgid "+1 Month"
+msgstr "+1 Mês"
+
+#: ../widget.cal.php:88
+msgid "+2 Months"
+msgstr "+2 Meses"
+
+#: ../widget.cal.php:94
+msgid "Weeks start on"
+msgstr "Semana começa em"
+
+#: ../widget.cal.php:103
+msgid "Date picker"
+msgstr "Seletor de data"
+
+#: ../widget.cal.php:112
+msgid "Colored days"
+msgstr "Dias coloridos"
+
+#: ../widget.cal.php:123 ../widget.map.php:173 ../widget.php:147
+msgid "Show thumbnails"
+msgstr "Mostrar miniaturas"
+
+#: ../widget.map.php:8
+msgid "Map of events posts"
+msgstr "Mapa de posts de evento"
+
+#: ../widget.map.php:111 ../widget.php:92
+msgid "(-1 is no limit)"
+msgstr "(-1 é sem limite)"
+
+#: ../widget.map.php:118 ../widget.php:99
+msgid "Display future events"
+msgstr "Mostrar eventos futuros"
+
+#: ../widget.map.php:124 ../widget.php:105
+msgid "Display past events"
+msgstr "Mostrar eventos passados"
+
+#: ../widget.map.php:133 ../widget.php:114
+msgid "All categories"
+msgstr "Todas as categorias"
+
+#: ../widget.map.php:148 ../widget.php:135
+msgid "All tags"
+msgstr "Todas as tags"
+
+#: ../widget.map.php:190 ../widget.php:166
+msgid "Show excerpt"
+msgstr "Mostrar resumo"
+
+#: ../widget.map.php:225
+#, php-format
+msgid "Activate %s interaction"
+msgstr "Ativar interação com %"
+
+#: ../widget.php:7
+msgid "List of future events posts"
+msgstr "Lista de futuros posts de eventos "
+
+#: ../widget.php:125
+msgid "Show category ICS link"
+msgstr "Mostrar link de categoria ICS"
+
+#: ../widget.php:172
+msgid "Order :"
+msgstr "Ordem:"
+
+#: ../widget.php:174
+msgid "Reverse chronological"
+msgstr "Cronologicamente invertido"
+
+#: ../widget.php:175
+msgid "Chronological"
+msgstr "Cronológico"

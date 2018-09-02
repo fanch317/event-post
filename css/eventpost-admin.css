@@ -1,0 +1,166 @@
+#event_post input[type=date],#event_post input[type=datetime],#event_post input[type=datetime-local]{
+	display:block;
+}
+#eventpost-color-preview{
+    vertical-align: middle;
+}
+#eventpost-color-dropdown{
+    display:block;
+}
+.eventpost-datepicker-simple-inputgroup{
+    display: inline-block;
+    background: #FFF;
+    border: #CCC 1px inset;
+    padding: 1px 3px;
+    border-radius: 3px;
+    height:20px;
+    vertical-align: middle;
+}
+.eventpost-datepicker-simple-wrap select{
+    height: 24px;
+    padding: 0;
+    vertical-align: middle;
+}
+.eventpost-datepicker-simple-date.hasDatepicker{
+    width: 90px;
+    background: transparent;
+    border:none;
+    padding: 0;
+}
+.eventpost-datepicker-simple-inputgroup button{
+    background: transparent;
+    border:none;
+    padding: 0;
+    line-height: 24px;
+    height: 24px;
+}
+.human_date{
+    font-weight: 900;
+}
+.eventpost-datepicker-native-wrap, .eventpost-datepicker-native-wrap input, .eventpost-datepicker-native-wrap select{
+    font-size:12px;
+    padding: 1px;
+}
+
+.eventpost-datepicker-native-year{
+    width:3.4em;
+}
+.wp-admin select.eventpost-datepicker-native-month{
+    height:21px;
+    padding:0;
+    vertical-align: top;
+}
+.eventpost-datepicker-native-day, .eventpost-datepicker-native-hour, .eventpost-datepicker-native-minute{
+    width:2em;
+}
+#event_post label input[type=datetime-local]{
+
+}
+
+#event_post label input[type=text]{
+	background:transparent;
+	border:none;
+}
+#event_post label:hover input[type=text]{
+	background:#ffffff;
+	border:#CCC 1px inset;
+}
+#eventaddress_result p{
+	position:relative;
+	padding:8px 0px 8px 25px;
+	border-bottom:#DDD 1px solid;
+	border-top:#FFF 1px solid;
+	margin:0;
+}
+#eventaddress_result p:first-child{
+	border-top:none;
+}
+#eventaddress_result p:last-child{
+	border-bottom:none;
+}
+#eventaddress_result p a img{
+	position:absolute;
+	top:8px;
+	left:0;
+}
+#eventaddress_result p a{
+	clear:both;
+}
+#eventaddress_result .alert{
+    display:block;
+    color:#a00;
+}
+.eventpost-edit-icon{
+    color:#999;
+}
+#event_address_search{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#event-post-map-preview{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    cursor: grab;
+}
+#event-post-map-preview-fixed-marker{
+    position: absolute;
+    z-index: 99997;
+}
+#event-post-map-preview .ep-block-draging{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(255,255,255,0.4);
+    z-index: 99998;
+    cursor: pointer;
+}
+#event-post-map-preview .ep-block-draging span{
+    display: none;
+    padding: 0.3em 1em;
+    background: rgba(200,200,200,0.6);
+    text-align: center;
+}
+#event-post-map-preview .ep-block-draging:hover span{
+    display: inline-block;
+}
+#event-post-map-preview .ep-stop-draging{
+    position: absolute;
+    right:5px;
+    bottom:5px;
+    z-index: 99999999;
+}
+
+#ep_sce_shortcode{
+	padding:0.5em;
+	font-size:1.1em;
+	background:#FFC;
+	border:#CC5 1px solid;
+	border-radius:4px;
+	margin:1em 0;
+}
+
+
+
+body.widgets-php .eventpost_admin_widget h4:before{
+    font-family:dashicons;
+    font-size:1.7em;
+    top:4px;
+    position:relative;
+}
+body.widgets-php .eventpost_widget_cal h4:before{
+    content:'\f145 ';
+}
+body.widgets-php .eventpost_widget_map h4:before{
+    content:'\f231 ';
+}
+body.widgets-php .eventpost_widget_list h4:before{
+    content:'\f163 ';
+}
